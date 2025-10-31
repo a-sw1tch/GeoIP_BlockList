@@ -55,3 +55,5 @@ api.ipgeolocation.io
 ipstack.com
 freegeoip.net
 ipgeolocation.io
+www.showmyip.com
+showmyip.com
