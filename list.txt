@@ -79,7 +79,6 @@ dr.yandex.net
 dr2.yandex.net
 showip.net
 browserleaks.com
-whatismyip.com
 www.whatismyip.com
 ip.me
 iplocation.io
