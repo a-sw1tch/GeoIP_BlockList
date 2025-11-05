@@ -99,3 +99,5 @@ www.dnsleaktest.com
 dnsleaktest.com
 www.myip.com
 myip.com
+www.myip.ms
+myip.ms
