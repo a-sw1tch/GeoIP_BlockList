@@ -97,3 +97,5 @@ www.everyware.ch
 everyware.ch
 www.dnsleaktest.com
 dnsleaktest.com
+www.myip.com
+myip.com
