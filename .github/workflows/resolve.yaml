@@ -1,0 +1,143 @@
+name: Resolve IP Detection Services
+
+on:
+  schedule:
+    # Run daily at 04:00 UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'list.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install DNS tools
+        run: sudo apt-get update && sudo apt-get install -y dnsutils
+
+      - name: Resolve domains via multiple DNS resolvers
+        run: |
+          set -euo pipefail
+
+          RESOLVERS=(
+            "8.8.8.8"         # Google Public DNS
+            "8.8.4.4"         # Google Public DNS secondary
+            "1.1.1.1"         # Cloudflare
+            "1.0.0.1"         # Cloudflare secondary
+            "9.9.9.9"         # Quad9
+            "149.112.112.112" # Quad9 secondary
+            "208.67.222.222"  # OpenDNS
+            "77.88.8.8"       # Yandex DNS
+            "94.140.14.14"    # AdGuard DNS
+          )
+
+          INPUT_FILE="list.txt"
+          WORK_DIR=$(mktemp -d)
+          RAW_IPS="$WORK_DIR/raw_ips.txt"
+          IPV4_OUTPUT="ip_list_v4.txt"
+          IPV6_OUTPUT="ip_list_v6.txt"
+          COMBINED_OUTPUT="ip_list_all.txt"
+          LOG_FILE="resolve_log.txt"
+
+          : > "$RAW_IPS"
+          : > "$LOG_FILE"
+
+          echo "=== DNS Resolution started at $(date -u) ===" | tee -a "$LOG_FILE"
+          echo "Resolvers: ${RESOLVERS[*]}" | tee -a "$LOG_FILE"
+          echo "" >> "$LOG_FILE"
+
+          total=0
+          resolved=0
+          failed=0
+
+          while IFS= read -r line || [[ -n "$line" ]]; do
+            domain=$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+            [[ -z "$domain" || "$domain" == \#* ]] && continue
+
+            total=$((total + 1))
+            domain_resolved=false
+            domain_ips=""
+
+            for resolver in "${RESOLVERS[@]}"; do
+              a_records=$(dig +short +time=5 +tries=2 A "$domain" @"$resolver" 2>/dev/null \
+                | grep -E '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$' || true)
+              if [[ -n "$a_records" ]]; then
+                echo "$a_records" >> "$RAW_IPS"
+                domain_resolved=true
+                domain_ips+=" $a_records"
+              fi
+
+              aaaa_records=$(dig +short +time=5 +tries=2 AAAA "$domain" @"$resolver" 2>/dev/null \
+                | grep -E '^[0-9a-fA-F:]+$' || true)
+              if [[ -n "$aaaa_records" ]]; then
+                echo "$aaaa_records" >> "$RAW_IPS"
+                domain_resolved=true
+                domain_ips+=" $aaaa_records"
+              fi
+            done
+
+            if $domain_resolved; then
+              resolved=$((resolved + 1))
+              unique_count=$(echo "$domain_ips" | tr ' ' '\n' | sort -u | grep -c . || true)
+              echo "[OK]   $domain ($unique_count unique IPs)" >> "$LOG_FILE"
+            else
+              failed=$((failed + 1))
+              echo "[FAIL] $domain" >> "$LOG_FILE"
+            fi
+          done < "$INPUT_FILE"
+
+          grep -E '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$' "$RAW_IPS" \
+            | grep -Ev '^(0\.0\.0\.0|127\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|255\.255\.255\.255)' \
+            | sort -t. -k1,1n -k2,2n -k3,3n -k4,4n -u > "$IPV4_OUTPUT"
+          ipv4_count=$(wc -l < "$IPV4_OUTPUT")
+
+          grep -Ev '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$' "$RAW_IPS" \
+            | sort -u > "$IPV6_OUTPUT" 2>/dev/null || true
+          ipv6_count=$(wc -l < "$IPV6_OUTPUT")
+
+          cat "$IPV4_OUTPUT" "$IPV6_OUTPUT" > "$COMBINED_OUTPUT"
+          combined_count=$(wc -l < "$COMBINED_OUTPUT")
+
+          {
+            echo ""
+            echo "=== Summary ==="
+            echo "Total domains:    $total"
+            echo "Resolved:         $resolved"
+            echo "Failed:           $failed"
+            echo "Unique IPv4:      $ipv4_count"
+            echo "Unique IPv6:      $ipv6_count"
+            echo "Total unique IPs: $combined_count"
+            echo "=== Completed at $(date -u) ==="
+          } | tee -a "$LOG_FILE"
+
+          for f in "$IPV4_OUTPUT" "$IPV6_OUTPUT" "$COMBINED_OUTPUT"; do
+            tmpf=$(mktemp)
+            {
+              echo "# Generated: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              echo "# Source: list.txt ($total domains)"
+              echo "# Resolvers: ${RESOLVERS[*]}"
+              cat "$f"
+            } > "$tmpf"
+            mv "$tmpf" "$f"
+          done
+
+          rm -rf "$WORK_DIR"
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ip_list_v4.txt ip_list_v6.txt ip_list_all.txt resolve_log.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update resolved IP lists — $(date -u +%Y-%m-%d)"
+            git push
+          fi
