@@ -1,4 +1,4 @@
-=== DNS Resolution started at Fri Mar  6 05:04:11 UTC 2026 ===
+=== DNS Resolution started at Sat Mar  7 04:53:33 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
@@ -13,7 +13,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ident.me (2 unique IPs)
 [OK]   ipapi.com (10 unique IPs)
 [OK]   db-ip.com (5 unique IPs)
-[OK]   ipdata.co (12 unique IPs)
+[OK]   ipdata.co (16 unique IPs)
 [OK]   ipwhois.io (8 unique IPs)
 [OK]   ifconfig.co (4 unique IPs)
 [OK]   api.ipquery.io (1 unique IPs)
@@ -44,7 +44,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   iplocation.net (10 unique IPs)
 [OK]   iplocation.com (1 unique IPs)
 [OK]   ip-tracker.org (4 unique IPs)
-[OK]   whatismyip.akamai.com (8 unique IPs)
+[OK]   whatismyip.akamai.com (10 unique IPs)
 [OK]   freegeoip.net (2 unique IPs)
 [OK]   www.showmyip.com (2 unique IPs)
 [OK]   showmyip.com (2 unique IPs)
@@ -76,7 +76,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   geonames.org (1 unique IPs)
 [OK]   ipdetails.io (1 unique IPs)
 [OK]   ipfingerprint.com (6 unique IPs)
-[OK]   ip-reputation.org (8 unique IPs)
+[OK]   ip-reputation.org (6 unique IPs)
 [FAIL] view-ip.com
 [OK]   dr.yandex.net (2 unique IPs)
 [OK]   dr2.yandex.net (2 unique IPs)
@@ -106,10 +106,10 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myip.ms (2 unique IPs)
 [OK]   ifconfig.io (4 unique IPs)
 [OK]   curlmyip.net (2 unique IPs)
-[OK]   eth0.me (2 unique IPs)
+[OK]   eth0.me (4 unique IPs)
 [OK]   l2.io (1 unique IPs)
 [OK]   ip.gs (4 unique IPs)
-[OK]   ip.cn (5 unique IPs)
+[OK]   ip.cn (4 unique IPs)
 [OK]   ip.3322.net (1 unique IPs)
 [OK]   tnx.nl (2 unique IPs)
 [OK]   wgetip.com (10 unique IPs)
@@ -123,7 +123,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   api4.ipify.org (5 unique IPs)
 [OK]   api.seeip.org (2 unique IPs)
 [OK]   ip.seeip.org (2 unique IPs)
-[OK]   api.bigdatacloud.net (6 unique IPs)
+[OK]   api.bigdatacloud.net (5 unique IPs)
 [OK]   api.my-ip.io (2 unique IPs)
 [OK]   api.ip.sb (6 unique IPs)
 [OK]   jsonip.com (2 unique IPs)
@@ -135,7 +135,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   geolocation-db.com (1 unique IPs)
 [OK]   freegeoip.live (1 unique IPs)
 [OK]   abstractapi.com (1 unique IPs)
-[OK]   extreme-ip-lookup.com (6 unique IPs)
+[OK]   extreme-ip-lookup.com (7 unique IPs)
 [OK]   reallyfreegeoip.org (6 unique IPs)
 [OK]   freeipapi.com (4 unique IPs)
 [OK]   ipapi.is (2 unique IPs)
@@ -149,14 +149,14 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myexternalip.com (2 unique IPs)
 [OK]   whatismypublicip.com (1 unique IPs)
 [FAIL] bot.whatismyipaddress.com
-[OK]   ipaddress.com (6 unique IPs)
+[OK]   ipaddress.com (7 unique IPs)
 [OK]   ipaddress.my (4 unique IPs)
 [OK]   smart-ip.net (4 unique IPs)
 [OK]   trackip.net (4 unique IPs)
 [OK]   www.ipaddress.com (10 unique IPs)
 [OK]   findip.net (4 unique IPs)
 [OK]   ping.eu (1 unique IPs)
-[OK]   mxtoolbox.com (16 unique IPs)
+[OK]   mxtoolbox.com (12 unique IPs)
 [OK]   myipaddress.com (4 unique IPs)
 
 === Summary ===
@@ -164,6 +164,6 @@ Total domains:    157
 Resolved:         152
 Failed:           5
 Unique IPv4:      309
-Unique IPv6:      173
-Total unique IPs: 482
-=== Completed at Fri Mar  6 05:11:27 UTC 2026 ===
+Unique IPv6:      175
+Total unique IPs: 484
+=== Completed at Sat Mar  7 05:01:17 UTC 2026 ===
