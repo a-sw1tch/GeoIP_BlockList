@@ -1,4 +1,4 @@
-=== DNS Resolution started at Sat Mar 14 05:05:42 UTC 2026 ===
+=== DNS Resolution started at Sun Mar 15 05:24:06 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
@@ -13,7 +13,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ident.me (2 unique IPs)
 [OK]   ipapi.com (10 unique IPs)
 [OK]   db-ip.com (5 unique IPs)
-[OK]   ipdata.co (12 unique IPs)
+[OK]   ipdata.co (16 unique IPs)
 [OK]   ipwhois.io (8 unique IPs)
 [OK]   ifconfig.co (4 unique IPs)
 [OK]   api.ipquery.io (1 unique IPs)
@@ -44,7 +44,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   iplocation.net (10 unique IPs)
 [OK]   iplocation.com (1 unique IPs)
 [OK]   ip-tracker.org (4 unique IPs)
-[OK]   whatismyip.akamai.com (10 unique IPs)
+[OK]   whatismyip.akamai.com (8 unique IPs)
 [OK]   freegeoip.net (2 unique IPs)
 [OK]   www.showmyip.com (2 unique IPs)
 [OK]   showmyip.com (2 unique IPs)
@@ -61,7 +61,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   proxycheck.io (10 unique IPs)
 [OK]   iphub.info (1 unique IPs)
 [OK]   shodan.io (8 unique IPs)
-[OK]   censys.io (6 unique IPs)
+[OK]   censys.io (8 unique IPs)
 [OK]   viewdns.info (10 unique IPs)
 [OK]   bgp.he.net (2 unique IPs)
 [OK]   whois.arin.net (6 unique IPs)
@@ -69,7 +69,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   whois.apnic.net (6 unique IPs)
 [OK]   rdap.apnic.net (4 unique IPs)
 [OK]   whois.ripe.net (2 unique IPs)
-[OK]   whois.lacnic.net (11 unique IPs)
+[OK]   whois.lacnic.net (8 unique IPs)
 [OK]   whois.afrinic.net (8 unique IPs)
 [OK]   maxmind.com (4 unique IPs)
 [OK]   ip2location.com (10 unique IPs)
@@ -123,12 +123,12 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   api4.ipify.org (5 unique IPs)
 [OK]   api.seeip.org (2 unique IPs)
 [OK]   ip.seeip.org (2 unique IPs)
-[OK]   api.bigdatacloud.net (4 unique IPs)
+[OK]   api.bigdatacloud.net (6 unique IPs)
 [OK]   api.my-ip.io (2 unique IPs)
 [OK]   api.ip.sb (6 unique IPs)
 [OK]   jsonip.com (2 unique IPs)
 [OK]   getjsonip.com (2 unique IPs)
-[OK]   httpbin.org (12 unique IPs)
+[OK]   httpbin.org (10 unique IPs)
 [OK]   ipof.in (4 unique IPs)
 [OK]   ip2location.io (10 unique IPs)
 [OK]   ipbase.com (4 unique IPs)
@@ -164,6 +164,6 @@ Total domains:    157
 Resolved:         152
 Failed:           5
 Unique IPv4:      308
-Unique IPv6:      172
-Total unique IPs: 480
-=== Completed at Sat Mar 14 05:11:58 UTC 2026 ===
+Unique IPv6:      169
+Total unique IPs: 477
+=== Completed at Sun Mar 15 05:30:46 UTC 2026 ===
