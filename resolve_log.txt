@@ -1,11 +1,11 @@
-=== DNS Resolution started at Sat May  2 05:59:36 UTC 2026 ===
+=== DNS Resolution started at Sun May  3 06:19:48 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
 [OK]   2ip.io (1 unique IPs)
 [OK]   ipapi.co (10 unique IPs)
 [OK]   ipgeolocation.io (1 unique IPs)
-[OK]   api.ipgeolocation.io (3 unique IPs)
+[OK]   api.ipgeolocation.io (4 unique IPs)
 [OK]   api-maps.yandex.ru (2 unique IPs)
 [OK]   4.ipwho.de (1 unique IPs)
 [OK]   api64.ipify.org (4 unique IPs)
@@ -23,7 +23,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ipinfo.io (1 unique IPs)
 [OK]   icanhazip.com (4 unique IPs)
 [OK]   ipecho.net (2 unique IPs)
-[OK]   checkip.amazonaws.com (21 unique IPs)
+[OK]   checkip.amazonaws.com (18 unique IPs)
 [OK]   ipify.org (5 unique IPs)
 [OK]   api.ipify.org (5 unique IPs)
 [OK]   api6.ipify.org (1 unique IPs)
@@ -44,7 +44,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   iplocation.net (10 unique IPs)
 [OK]   iplocation.com (1 unique IPs)
 [OK]   ip-tracker.org (5 unique IPs)
-[OK]   whatismyip.akamai.com (8 unique IPs)
+[OK]   whatismyip.akamai.com (12 unique IPs)
 [OK]   freegeoip.net (2 unique IPs)
 [OK]   www.showmyip.com (2 unique IPs)
 [OK]   showmyip.com (2 unique IPs)
@@ -69,7 +69,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   whois.apnic.net (6 unique IPs)
 [OK]   rdap.apnic.net (4 unique IPs)
 [OK]   whois.ripe.net (2 unique IPs)
-[OK]   whois.lacnic.net (10 unique IPs)
+[OK]   whois.lacnic.net (9 unique IPs)
 [OK]   whois.afrinic.net (8 unique IPs)
 [OK]   maxmind.com (4 unique IPs)
 [OK]   ip2location.com (10 unique IPs)
@@ -106,10 +106,10 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myip.ms (2 unique IPs)
 [OK]   ifconfig.io (4 unique IPs)
 [OK]   curlmyip.net (2 unique IPs)
-[OK]   eth0.me (2 unique IPs)
+[OK]   eth0.me (4 unique IPs)
 [OK]   l2.io (1 unique IPs)
 [OK]   ip.gs (4 unique IPs)
-[OK]   ip.cn (7 unique IPs)
+[OK]   ip.cn (9 unique IPs)
 [OK]   ip.3322.net (2 unique IPs)
 [OK]   tnx.nl (2 unique IPs)
 [OK]   wgetip.com (10 unique IPs)
@@ -128,7 +128,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   api.ip.sb (6 unique IPs)
 [OK]   jsonip.com (2 unique IPs)
 [OK]   getjsonip.com (2 unique IPs)
-[OK]   httpbin.org (8 unique IPs)
+[OK]   httpbin.org (6 unique IPs)
 [OK]   ipof.in (4 unique IPs)
 [OK]   ip2location.io (10 unique IPs)
 [OK]   ipbase.com (4 unique IPs)
@@ -163,7 +163,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 Total domains:    157
 Resolved:         152
 Failed:           5
-Unique IPv4:      314
-Unique IPv6:      172
-Total unique IPs: 486
-=== Completed at Sat May  2 06:06:57 UTC 2026 ===
+Unique IPv4:      316
+Unique IPv6:      171
+Total unique IPs: 487
+=== Completed at Sun May  3 06:26:55 UTC 2026 ===
