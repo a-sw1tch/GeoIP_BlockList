@@ -1,4 +1,4 @@
-=== DNS Resolution started at Fri May 22 07:34:23 UTC 2026 ===
+=== DNS Resolution started at Sat May 23 06:26:58 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
@@ -25,7 +25,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ipecho.net (2 unique IPs)
 [OK]   checkip.amazonaws.com (18 unique IPs)
 [OK]   ipify.org (5 unique IPs)
-[OK]   api.ipify.org (5 unique IPs)
+[OK]   api.ipify.org (3 unique IPs)
 [OK]   api6.ipify.org (1 unique IPs)
 [OK]   ip-api.com (1 unique IPs)
 [OK]   ipwho.is (8 unique IPs)
@@ -61,7 +61,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   proxycheck.io (10 unique IPs)
 [OK]   iphub.info (1 unique IPs)
 [OK]   shodan.io (8 unique IPs)
-[OK]   censys.io (6 unique IPs)
+[OK]   censys.io (8 unique IPs)
 [OK]   viewdns.info (10 unique IPs)
 [OK]   bgp.he.net (2 unique IPs)
 [OK]   whois.arin.net (6 unique IPs)
@@ -69,7 +69,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   whois.apnic.net (6 unique IPs)
 [OK]   rdap.apnic.net (4 unique IPs)
 [OK]   whois.ripe.net (2 unique IPs)
-[OK]   whois.lacnic.net (7 unique IPs)
+[OK]   whois.lacnic.net (10 unique IPs)
 [OK]   whois.afrinic.net (8 unique IPs)
 [OK]   maxmind.com (4 unique IPs)
 [OK]   ip2location.com (10 unique IPs)
@@ -106,7 +106,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myip.ms (2 unique IPs)
 [OK]   ifconfig.io (4 unique IPs)
 [OK]   curlmyip.net (2 unique IPs)
-[OK]   eth0.me (4 unique IPs)
+[OK]   eth0.me (2 unique IPs)
 [OK]   l2.io (1 unique IPs)
 [OK]   ip.gs (4 unique IPs)
 [OK]   ip.cn (6 unique IPs)
@@ -123,7 +123,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   api4.ipify.org (5 unique IPs)
 [OK]   api.seeip.org (2 unique IPs)
 [OK]   ip.seeip.org (2 unique IPs)
-[OK]   api.bigdatacloud.net (6 unique IPs)
+[OK]   api.bigdatacloud.net (4 unique IPs)
 [OK]   api.my-ip.io (2 unique IPs)
 [OK]   api.ip.sb (6 unique IPs)
 [OK]   jsonip.com (2 unique IPs)
@@ -164,6 +164,6 @@ Total domains:    157
 Resolved:         152
 Failed:           5
 Unique IPv4:      309
-Unique IPv6:      176
-Total unique IPs: 485
-=== Completed at Fri May 22 07:40:59 UTC 2026 ===
+Unique IPv6:      171
+Total unique IPs: 480
+=== Completed at Sat May 23 06:32:56 UTC 2026 ===
