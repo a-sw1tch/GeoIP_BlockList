@@ -1,11 +1,11 @@
-=== DNS Resolution started at Sun Jul 26 06:27:12 UTC 2026 ===
+=== DNS Resolution started at Mon Jul 27 06:53:02 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
 [OK]   2ip.io (1 unique IPs)
 [OK]   ipapi.co (10 unique IPs)
 [OK]   ipgeolocation.io (1 unique IPs)
-[OK]   api.ipgeolocation.io (2 unique IPs)
+[OK]   api.ipgeolocation.io (3 unique IPs)
 [OK]   api-maps.yandex.ru (2 unique IPs)
 [OK]   4.ipwho.de (1 unique IPs)
 [OK]   api64.ipify.org (4 unique IPs)
@@ -30,7 +30,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ip-api.com (1 unique IPs)
 [OK]   ipwho.is (8 unique IPs)
 [OK]   ipstack.com (10 unique IPs)
-[OK]   freegeoip.app (6 unique IPs)
+[OK]   freegeoip.app (8 unique IPs)
 [OK]   geojs.io (8 unique IPs)
 [OK]   get.geojs.io (10 unique IPs)
 [OK]   wtfismyip.com (2 unique IPs)
@@ -44,7 +44,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   iplocation.net (10 unique IPs)
 [OK]   iplocation.com (1 unique IPs)
 [OK]   ip-tracker.org (5 unique IPs)
-[OK]   whatismyip.akamai.com (10 unique IPs)
+[OK]   whatismyip.akamai.com (12 unique IPs)
 [OK]   freegeoip.net (2 unique IPs)
 [OK]   www.showmyip.com (2 unique IPs)
 [OK]   showmyip.com (2 unique IPs)
@@ -76,7 +76,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   geonames.org (1 unique IPs)
 [OK]   ipdetails.io (1 unique IPs)
 [OK]   ipfingerprint.com (6 unique IPs)
-[OK]   ip-reputation.org (8 unique IPs)
+[OK]   ip-reputation.org (9 unique IPs)
 [FAIL] view-ip.com
 [OK]   dr.yandex.net (2 unique IPs)
 [OK]   dr2.yandex.net (2 unique IPs)
@@ -106,10 +106,10 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myip.ms (2 unique IPs)
 [OK]   ifconfig.io (4 unique IPs)
 [OK]   curlmyip.net (2 unique IPs)
-[OK]   eth0.me (2 unique IPs)
+[OK]   eth0.me (4 unique IPs)
 [OK]   l2.io (1 unique IPs)
 [OK]   ip.gs (4 unique IPs)
-[OK]   ip.cn (6 unique IPs)
+[OK]   ip.cn (7 unique IPs)
 [OK]   ip.3322.net (1 unique IPs)
 [OK]   tnx.nl (2 unique IPs)
 [OK]   wgetip.com (10 unique IPs)
@@ -128,15 +128,15 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   api.ip.sb (6 unique IPs)
 [OK]   jsonip.com (2 unique IPs)
 [OK]   getjsonip.com (2 unique IPs)
-[OK]   httpbin.org (4 unique IPs)
+[OK]   httpbin.org (9 unique IPs)
 [OK]   ipof.in (4 unique IPs)
 [OK]   ip2location.io (10 unique IPs)
 [OK]   ipbase.com (4 unique IPs)
 [OK]   geolocation-db.com (1 unique IPs)
 [OK]   freegeoip.live (1 unique IPs)
 [OK]   abstractapi.com (1 unique IPs)
-[OK]   extreme-ip-lookup.com (4 unique IPs)
-[OK]   reallyfreegeoip.org (6 unique IPs)
+[OK]   extreme-ip-lookup.com (6 unique IPs)
+[OK]   reallyfreegeoip.org (4 unique IPs)
 [OK]   freeipapi.com (4 unique IPs)
 [OK]   ipapi.is (2 unique IPs)
 [FAIL] ipwhere.io
@@ -149,21 +149,21 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   myexternalip.com (2 unique IPs)
 [OK]   whatismypublicip.com (1 unique IPs)
 [FAIL] bot.whatismyipaddress.com
-[OK]   ipaddress.com (6 unique IPs)
+[OK]   ipaddress.com (4 unique IPs)
 [OK]   ipaddress.my (4 unique IPs)
 [OK]   smart-ip.net (4 unique IPs)
 [OK]   trackip.net (4 unique IPs)
 [OK]   www.ipaddress.com (10 unique IPs)
 [OK]   findip.net (4 unique IPs)
 [OK]   ping.eu (1 unique IPs)
-[OK]   mxtoolbox.com (16 unique IPs)
+[OK]   mxtoolbox.com (20 unique IPs)
 [OK]   myipaddress.com (4 unique IPs)
 
 === Summary ===
 Total domains:    157
 Resolved:         152
 Failed:           5
-Unique IPv4:      311
+Unique IPv4:      327
 Unique IPv6:      171
-Total unique IPs: 482
-=== Completed at Sun Jul 26 06:34:08 UTC 2026 ===
+Total unique IPs: 498
+=== Completed at Mon Jul 27 06:59:03 UTC 2026 ===
