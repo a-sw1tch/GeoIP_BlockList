@@ -1,4 +1,4 @@
-=== DNS Resolution started at Tue Oct  6 10:51:31 UTC 2026 ===
+=== DNS Resolution started at Wed Oct  7 10:38:56 UTC 2026 ===
 Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.222 77.88.8.8 94.140.14.14
 
 [OK]   2ip.ru (1 unique IPs)
@@ -16,7 +16,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ipdata.co (12 unique IPs)
 [OK]   ipwhois.io (8 unique IPs)
 [OK]   ifconfig.co (4 unique IPs)
-[OK]   api.ipquery.io (6 unique IPs)
+[OK]   api.ipquery.io (4 unique IPs)
 [OK]   whoer.net (5 unique IPs)
 [OK]   ipregistry.co (8 unique IPs)
 [OK]   rdap.db.ripe.net (2 unique IPs)
@@ -30,7 +30,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   ip-api.com (1 unique IPs)
 [OK]   ipwho.is (8 unique IPs)
 [OK]   ipstack.com (10 unique IPs)
-[OK]   freegeoip.app (8 unique IPs)
+[OK]   freegeoip.app (6 unique IPs)
 [OK]   geojs.io (8 unique IPs)
 [OK]   get.geojs.io (10 unique IPs)
 [OK]   wtfismyip.com (2 unique IPs)
@@ -66,17 +66,17 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   bgp.he.net (2 unique IPs)
 [OK]   whois.arin.net (6 unique IPs)
 [OK]   rdap.arin.net (6 unique IPs)
-[OK]   whois.apnic.net (5 unique IPs)
+[OK]   whois.apnic.net (4 unique IPs)
 [OK]   rdap.apnic.net (4 unique IPs)
 [OK]   whois.ripe.net (2 unique IPs)
-[OK]   whois.lacnic.net (10 unique IPs)
+[OK]   whois.lacnic.net (11 unique IPs)
 [OK]   whois.afrinic.net (8 unique IPs)
 [OK]   maxmind.com (4 unique IPs)
 [OK]   ip2location.com (10 unique IPs)
 [OK]   geonames.org (1 unique IPs)
 [OK]   ipdetails.io (1 unique IPs)
 [OK]   ipfingerprint.com (6 unique IPs)
-[OK]   ip-reputation.org (7 unique IPs)
+[OK]   ip-reputation.org (11 unique IPs)
 [FAIL] view-ip.com
 [OK]   dr.yandex.net (2 unique IPs)
 [OK]   dr2.yandex.net (2 unique IPs)
@@ -135,8 +135,8 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 [OK]   geolocation-db.com (1 unique IPs)
 [OK]   freegeoip.live (1 unique IPs)
 [OK]   abstractapi.com (1 unique IPs)
-[OK]   extreme-ip-lookup.com (4 unique IPs)
-[OK]   reallyfreegeoip.org (6 unique IPs)
+[OK]   extreme-ip-lookup.com (5 unique IPs)
+[OK]   reallyfreegeoip.org (8 unique IPs)
 [OK]   freeipapi.com (4 unique IPs)
 [OK]   ipapi.is (2 unique IPs)
 [FAIL] ipwhere.io
@@ -163,7 +163,7 @@ Resolvers: 8.8.8.8 8.8.4.4 1.1.1.1 1.0.0.1 9.9.9.9 149.112.112.112 208.67.222.22
 Total domains:    157
 Resolved:         152
 Failed:           5
-Unique IPv4:      312
-Unique IPv6:      174
-Total unique IPs: 486
-=== Completed at Tue Oct  6 10:58:37 UTC 2026 ===
+Unique IPv4:      311
+Unique IPv6:      178
+Total unique IPs: 489
+=== Completed at Wed Oct  7 10:45:29 UTC 2026 ===
